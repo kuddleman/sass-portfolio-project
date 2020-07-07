@@ -1,7 +1,12 @@
-@import 'config';
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
 body {
-  background: $primary-color;
+  background: #272727;
   color: #fff;
   height: 100vh;
   font-family: 'Segoe UI', Verdana, Geneva, Tahoma, sans-serif;
@@ -27,20 +32,20 @@ header {
 main {
   height: 100%;
   width: 100%;
+}
 
-  .social-icons {
-    position: fixed;
-    bottom: 1rem;
-    left: 1rem;
+main .social-icons {
+  position: fixed;
+  bottom: 1rem;
+  left: 1rem;
+}
 
-    a {
-      padding: 0.4rems;
+main .social-icons a {
+  padding: 0.4rems;
+}
 
-      &:hover {
-        color: $secondary-color
-      }
-    }
-  }
+main .social-icons a:hover {
+  color: #ff652f;
 }
 
 footer {
@@ -52,3 +57,4 @@ footer {
   padding: 1rem;
   color: #fff;
 }
+/*# sourceMappingURL=main.css.map */
